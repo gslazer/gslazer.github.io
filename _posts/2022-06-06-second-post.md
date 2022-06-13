@@ -1,7 +1,7 @@
 ---
 title: "근황, 정적 블로그를 작성하게 된 계기"
 date: 2022-06-05 06:08:00 -0500
-categories: 아무말
+categories: anything jekyll
 ---
 얼마전에 Microsoft Surface Laptop4 를 구매했다.
 서피스 시리즈는 항상 갖고싶은 기기였는데, 다음 태블릿은 LTE던 5G던 반드시 셀룰러 모델로 사고싶다는 마음도 있었어서...여의치 않았다.
