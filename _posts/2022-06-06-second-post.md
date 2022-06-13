@@ -1,6 +1,6 @@
 ---
 title: "근황, 정적 블로그를 작성하게 된 계기"
-date: 2022-06-05 06:08:00 -0400
+date: 2022-06-05 06:08:00 -0500
 categories: 아무말
 ---
 얼마전에 Microsoft Surface Laptop4 를 구매했다.
