@@ -91,7 +91,7 @@ $ echo "deb [arch=amd64] https://pkg.surfacelinux.com/debian release main" \
 
 $ sudo apt update
 ```
-* 여기에서 문제가 발생한다면 [여기][https://github.com/linux-surface/linux-surface/wiki/Known-Issues-and-FAQ#apt-update-fails-on-ubuntudebian-based-distributions-with-error-401-unauthorized]를 참고.
+여기에서 문제가 발생한다면 [여기][https://github.com/linux-surface/linux-surface/wiki/Known-Issues-and-FAQ#apt-update-fails-on-ubuntudebian-based-distributions-with-error-401-unauthorized]를 참고.
 
 ```
 $ sudo apt install linux-image-surface linux-headers-surface iptsd libwacom-surface
