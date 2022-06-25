@@ -4,7 +4,9 @@ date: 2022-06-22 06:08:00 -0500
 categories: surface-laptop-4 linux-surface ubuntu
 ---
 >linux-surface github : https://github.com/linux-surface
+
 >Installation and Setup page : https://github.com/linux-surface/linux-surface/wiki/Installation-and-Setup#Debian--Ubuntu
+
 >Surface Laptop4 Page https://github.com/linux-surface/linux-surface/wiki/Surface-Laptop-4
 
 처음에도 고생했지만 꺠끗하게 끝내겠다고 한 세번 네번 다시했는데 할때마다 뭔가 석연치가 않았다 ^^;;
@@ -45,7 +47,7 @@ categories: surface-laptop-4 linux-surface ubuntu
 
 # 디스플레이 프리징 문제 해결
 
-    [linux-surface 설치 페이지][linux-surface Installation and Setup page]에는 문제시되어있지 않지만(아마 다른 서피스 시리즈에서는 별 탈이 없는 듯 하다), 서피스 랩탑 4 에서는 직전에 적은 디스플레이가 굳어버리는 IOMMU 문제가 여기서 발목을 잡는다. 우분투 설치가 이후 커널 설치까지 완료되어도 해당 문제를 해결하지않으면 모니터는 사용할 수 없기 때문에 IOMMU 오류부터 해결하고 넘어간다. [서피스 랩탑4 페이지][linux-surface Surface Laptop4 Page]에 작성된 해결 방식을 따라간다.
+[linux-surface 설치 페이지][linux-surface Installation and Setup page]에는 문제시되어있지 않지만(아마 다른 서피스 시리즈에서는 별 탈이 없는 듯 하다), 서피스 랩탑 4 에서는 직전에 적은 디스플레이가 굳어버리는 IOMMU 문제가 여기서 발목을 잡는다. 우분투 설치가 이후 커널 설치까지 완료되어도 해당 문제를 해결하지않으면 모니터는 사용할 수 없기 때문에 IOMMU 오류부터 해결하고 넘어간다. [서피스 랩탑4 페이지][linux-surface Surface Laptop4 Page]에 작성된 해결 방식을 따라간다.
 
 1. Grub진입
     부팅할떄 시프트 키를 누르고 있으면 서피스 로고 후에 Grub으로 진입한다.
