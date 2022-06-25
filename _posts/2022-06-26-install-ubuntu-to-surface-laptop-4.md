@@ -80,47 +80,47 @@ categories: surface-laptop-4 linux-surface ubuntu
 
 # 리눅스 커널 설치
 
-    거의 다 왔다. 나머지는 이제 [linux-surface 설치 페이지][linux-surface Installation and Setup page] 를 죽 따라가기만 하면 된다.
+거의 다 왔다. 나머지는 이제 [linux-surface 설치 페이지][linux-surface Installation and Setup page] 를 죽 따라가기만 하면 된다.
 
-    ```
-    $ wget -qO - https://raw.githubusercontent.com/linux-surface/linux-surface/master/pkg/keys/surface.asc \
-        | gpg --dearmor | sudo dd of=/etc/apt/trusted.gpg.d/linux-surface.gpg
-    ```
+```
+$ wget -qO - https://raw.githubusercontent.com/linux-surface/linux-surface/master/pkg/keys/surface.asc \
+    | gpg --dearmor | sudo dd of=/etc/apt/trusted.gpg.d/linux-surface.gpg
+```
 
-    ```
-    $ echo "deb [arch=amd64] https://pkg.surfacelinux.com/debian release main" \
-        | sudo tee /etc/apt/sources.list.d/linux-surface.list
+```
+$ echo "deb [arch=amd64] https://pkg.surfacelinux.com/debian release main" \
+    | sudo tee /etc/apt/sources.list.d/linux-surface.list
 
-    $ sudo apt update
-    ```
-    여기에서 문제가 발생한다면 [여기][error-401]를 참고.
+$ sudo apt update
+```
+여기에서 문제가 발생한다면 [여기][error-401]를 참고.
 
-    ```
-    $ sudo apt install linux-image-surface linux-headers-surface iptsd libwacom-surface
-    $ sudo systemctl enable iptsd
-    ```
+```
+$ sudo apt install linux-image-surface linux-headers-surface iptsd libwacom-surface
+$ sudo systemctl enable iptsd
+```
 
-    ```
-    $ sudo apt install linux-surface-secureboot-mok
-    ```
+```
+$ sudo apt install linux-surface-secureboot-mok
+```
 
-    ```
-    $ sudo update-grub
-    ```
+```
+$ sudo update-grub
+```
 
-    이것으로 귀하시고 고마우신 분들이 만든 linux-surface커널 설치가 완료되어 서피스랩탑4로 우분투를 사용할 준비가 완료되었다.
-    ubuntu를 사용한적이 없어서 여러모로 헤매면서 여기 저기를 뒤졌지만, 결국 [linux-surface 설치 페이지][linux-surface Installation and Setup page]와 [서피스 랩탑4 페이지][linux-surface Surface Laptop4 Page]에 모두 있는 내용이었고 이쪽에서 제시한 방법이 가장 깔끔했다. 저 두 페이지에서 순서 정도만 설치과정에 맞게 끼워맞추고, 우분투 유저라면 다들 알아서인지 자세히 적혀있지 안은 grub 설정 방법 같은것만 추가했다.
+이것으로 귀하시고 고마우신 분들이 만든 linux-surface커널 설치가 완료되어 서피스랩탑4로 우분투를 사용할 준비가 완료되었다.
+ubuntu를 사용한적이 없어서 여러모로 헤매면서 여기 저기를 뒤졌지만, 결국 [linux-surface 설치 페이지][linux-surface Installation and Setup page]와 [서피스 랩탑4 페이지][linux-surface Surface Laptop4 Page]에 모두 있는 내용이었고 이쪽에서 제시한 방법이 가장 깔끔했다. 저 두 페이지에서 순서 정도만 설치과정에 맞게 끼워맞추고, 우분투 유저라면 다들 알아서인지 자세히 적혀있지 안은 grub 설정 방법 같은것만 추가했다.
 
 
 # 마우스커서 중복문제 해결
 
-    마지막으로 100% 발생하는 듯한 문제에 대해서 추가.
-    처음에는 깔끔하다가도 사용하다보면 로그인스크린에서의 마우스포인터가 화면에 그대로 남게 된다.
-    [Ubuntu 20.04 and 21.04: second cursor stuck on the screen 150% fractional scaling on a 1440p monitor after login (XOrg)][https://askubuntu.com/questions/1335496/ubuntu-20-04-and-21-04-second-cursor-stuck-on-the-screen-150-fractional-scalin]에서 해결을 찾았다.
+마지막으로 100% 발생하는 듯한 문제에 대해서 추가.
+처음에는 깔끔하다가도 사용하다보면 로그인스크린에서의 마우스포인터가 화면에 그대로 남게 된다.
+[Ubuntu 20.04 and 21.04: second cursor stuck on the screen 150% fractional scaling on a 1440p monitor after login (XOrg)][https://askubuntu.com/questions/1335496/ubuntu-20-04-and-21-04-second-cursor-stuck-on-the-screen-150-fractional-scalin]에서 해결을 찾았다.
 
-    >'sudo nano /etc/gdm3/custom.conf'
-    >'WaylandEnable=false'의 주석 제거 (#를 지움)
-    >'sudo service gdm restart'
+>'sudo nano /etc/gdm3/custom.conf'
+>'WaylandEnable=false'의 주석 제거 (#를 지움)
+>'sudo service gdm restart'
 
 끝~
 
