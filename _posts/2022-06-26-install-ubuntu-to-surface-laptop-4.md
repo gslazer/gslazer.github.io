@@ -130,8 +130,8 @@ ubuntu를 사용한적이 없어서 여러모로 헤매면서 여기 저기를 �
 
 [linux-surface github]: https://github.com/linux-surface
 [linux-surface Installation and Setup page]:   https://github.com/jekyll/jekyll
-[restore-grub]: [https://gomsik.tistory.com/m/44]
+[restore-grub]: https://gomsik.tistory.com/m/44
 [linux-surface Surface Laptop4 Page]: https://github.com/linux-surface/linux-surface/wiki/Surface-Laptop-4
-[disable secure boot]: [https://surfacetip.com/disable-secure-boot-surface-laptop-4/]
-[error-401]: [https://github.com/linux-surface/linux-surface/wiki/Known-Issues-and-FAQ#apt-update-fails-on-ubuntudebian-based-distributions-with-error-401-unauthorized]
-[Ubuntu 20.04 and 21.04: second cursor stuck on the screen 150% fractional scaling on a 1440p monitor after login (XOrg)]: [https://askubuntu.com/questions/1335496/ubuntu-20-04-and-21-04-second-cursor-stuck-on-the-screen-150-fractional-scalin]
+[disable secure boot]: https://surfacetip.com/disable-secure-boot-surface-laptop-4/
+[error-401]: https://github.com/linux-surface/linux-surface/wiki/Known-Issues-and-FAQ#apt-update-fails-on-ubuntudebian-based-distributions-with-error-401-unauthorized
+[Ubuntu 20.04 and 21.04: second cursor stuck on the screen 150% fractional scaling on a 1440p monitor after login (XOrg)]: https://askubuntu.com/questions/1335496/ubuntu-20-04-and-21-04-second-cursor-stuck-on-the-screen-150-fractional-scalin
