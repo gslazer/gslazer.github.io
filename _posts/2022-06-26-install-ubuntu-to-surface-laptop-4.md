@@ -98,6 +98,7 @@ $ sudo apt install linux-image-surface linux-headers-surface iptsd libwacom-surf
 $ sudo systemctl enable iptsd
 ```
 
+```
 $ sudo apt install linux-surface-secureboot-mok
 ```
 
