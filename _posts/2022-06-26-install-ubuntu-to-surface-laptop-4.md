@@ -3,9 +3,9 @@ title: "서피스 랩탑4에 우분투 설치하기"
 date: 2022-06-22 06:08:00 -0500
 categories: surface-laptop-4 linux-surface ubuntu
 ---
-linux-surface github : https://github.com/linux-surface
-    Installation and Setup page : https://github.com/linux-surface/linux-surface/wiki/Installation-and-Setup#Debian--Ubuntu
-    Surface Laptop4 Page https://github.com/linux-surface/linux-surface/wiki/Surface-Laptop-4
+>linux-surface github : https://github.com/linux-surface
+>>Installation and Setup page : https://github.com/linux-surface/linux-surface/wiki/Installation-and-Setup#Debian--Ubuntu
+>>Surface Laptop4 Page https://github.com/linux-surface/linux-surface/wiki/Surface-Laptop-4
 
 처음에도 고생했지만 꺠끗하게 끝내겠다고 한 세번 네번 다시했는데 할때마다 뭔가 석연치가 않았다 ^^;;
 언젠가 다시 세팅할일이 있을지 모르곘는데, 혹시라도 그러려면 다 까먹고 다시 고생할것 같아서 남기기로.
