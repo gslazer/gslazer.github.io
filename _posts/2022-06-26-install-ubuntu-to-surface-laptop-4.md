@@ -120,11 +120,11 @@ ubuntu를 사용한적이 없어서 여러모로 헤매면서 여기 저기를 �
 처음에는 깔끔하다가도 사용하다보면 로그인스크린에서의 마우스포인터가 화면에 그대로 남게 된다.
 [여기][Ubuntu 20.04 and 21.04: second cursor stuck on the screen 150% fractional scaling on a 1440p monitor after login (XOrg)]에서 해결을 찾았다.
 
-'sudo nano /etc/gdm3/custom.conf'
+`sudo nano /etc/gdm3/custom.conf`
 
-'WaylandEnable=false'의 주석 제거 (#를 지움)
+`WaylandEnable=false`의 주석 제거 (#를 지움)
 
-'sudo service gdm restart'
+`sudo service gdm restart`
 
 끝~
 
