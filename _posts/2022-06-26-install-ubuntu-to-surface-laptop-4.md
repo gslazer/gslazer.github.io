@@ -54,8 +54,8 @@ linux-surface github : https://github.com/linux-surface
 'quiet splash' 뒤에 ` amd_iommu=off iommu=off'를 붙여주고, ctrl+x로 부팅하면 화면이 먿지 않고 부팅 가능할 것이다.
     * nomodeset이나  amd_iommu=force_isolation도 시도해봤지만 몇가지 문제가 발생한다.(밝기조절 불가, 해상도조절 불가) 얌전히 위의 옵션만 적용하자
 
-3. Grub 부팅 옵션 수정
-당장 부팅에 성공 했지만 2.의 부팅옵션은 지속되지 않는 방법이기떄문에 Grub을 편집해서 향후 적용될 부팅옵션을 수정해준다.
+3. Grub 파일 수정
+당장 부팅에 성공 했지만 2.의 부팅옵션은 지속되지 않는 방법이기떄문에 Grub 파일을 편집해서 향후 적용될 부팅옵션을 수정해준다.
 
 ```
 $sudo nano /etc/default/grub
