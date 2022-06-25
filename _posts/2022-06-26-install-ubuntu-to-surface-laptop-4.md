@@ -47,7 +47,7 @@ linux-surface github : https://github.com/linux-surface
 
 1. Grub진입
 부팅할떄 시프트 키를 누르고 있으면 서피스 로고 후에 Grub으로 진입한다.
-만약 부팅 메뉴에 진입할 수 없다면, [grub 복구][https://gomsik.tistory.com/m/44]를 참조하여 복구 후에 진행하자.
+만약 부팅 메뉴에 진입할 수 없다면, [grub 복구][restore-grub]를 참조하여 복구 후에 진행하자.
 
 2. 부팅 옵션 적용
 부팅메뉴에서 e를 눌러 당장 부팅하기 위한 부팅옵션을 추가한다.
@@ -91,7 +91,7 @@ $ echo "deb [arch=amd64] https://pkg.surfacelinux.com/debian release main" \
 
 $ sudo apt update
 ```
-여기에서 문제가 발생한다면 [여기][https://github.com/linux-surface/linux-surface/wiki/Known-Issues-and-FAQ#apt-update-fails-on-ubuntudebian-based-distributions-with-error-401-unauthorized]를 참고.
+여기에서 문제가 발생한다면 [여기][error-401]를 참고.
 
 ```
 $ sudo apt install linux-image-surface linux-headers-surface iptsd libwacom-surface
@@ -124,6 +124,7 @@ ubuntu를 사용한적이 없어서 여러모로 헤매면서 여기 저기를 �
 
 [linux-surface github]: https://github.com/linux-surface
 [linux-surface Installation and Setup page]:   https://github.com/jekyll/jekyll
+[restore-grub]: [https://gomsik.tistory.com/m/44]
 [linux-surface Surface Laptop4 Page]: https://github.com/linux-surface/linux-surface/wiki/Surface-Laptop-4
 [disable secure boot]: [https://surfacetip.com/disable-secure-boot-surface-laptop-4/]
-
+[error-401]: [https://github.com/linux-surface/linux-surface/wiki/Known-Issues-and-FAQ#apt-update-fails-on-ubuntudebian-based-distributions-with-error-401-unauthorized]
