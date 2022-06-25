@@ -118,7 +118,7 @@ ubuntu를 사용한적이 없어서 여러모로 헤매면서 여기 저기를 �
 
 마지막으로 100% 발생하는 듯한 문제에 대해서 추가.
 처음에는 깔끔하다가도 사용하다보면 로그인스크린에서의 마우스포인터가 화면에 그대로 남게 된다.
-[Ubuntu 20.04 and 21.04: second cursor stuck on the screen 150% fractional scaling on a 1440p monitor after login (XOrg)][https://askubuntu.com/questions/1335496/ubuntu-20-04-and-21-04-second-cursor-stuck-on-the-screen-150-fractional-scalin]에서 해결을 찾았다.
+[여기][Ubuntu 20.04 and 21.04: second cursor stuck on the screen 150% fractional scaling on a 1440p monitor after login (XOrg)]에서 해결을 찾았다.
 
 'sudo nano /etc/gdm3/custom.conf'
 
@@ -134,3 +134,4 @@ ubuntu를 사용한적이 없어서 여러모로 헤매면서 여기 저기를 �
 [linux-surface Surface Laptop4 Page]: https://github.com/linux-surface/linux-surface/wiki/Surface-Laptop-4
 [disable secure boot]: [https://surfacetip.com/disable-secure-boot-surface-laptop-4/]
 [error-401]: [https://github.com/linux-surface/linux-surface/wiki/Known-Issues-and-FAQ#apt-update-fails-on-ubuntudebian-based-distributions-with-error-401-unauthorized]
+[Ubuntu 20.04 and 21.04: second cursor stuck on the screen 150% fractional scaling on a 1440p monitor after login (XOrg)]: [https://askubuntu.com/questions/1335496/ubuntu-20-04-and-21-04-second-cursor-stuck-on-the-screen-150-fractional-scalin]
