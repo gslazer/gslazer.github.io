@@ -21,7 +21,9 @@ categories: surface-laptop-4 linux-surface ubuntu
 
 1. 설치 준비
     우분투 설치USB를 만든다.
+
     스페어 usb 키보드와 마우스를 준비한다. 설치 과정에서 키보드와 터치패드가 먹통이 되기때문에 반드시 필요하다.
+
     (서피스 랩탑4는 'USB A 포트가 단 한개'라서 필연적으로 usb허브 등의 추가장비도 필요하다.)
 
 2. 윈도우 파티션 축소
@@ -35,13 +37,16 @@ categories: surface-laptop-4 linux-surface ubuntu
 
 3. 보안 부팅 비활성화(disable)
     우분투는 secure boot를 지원하니까 비활성화 할 필요가 없는것처럼 적혀있지만..
+
     아무튼 비활성화하지않으면 USB부트로 진입할 수 없어서 해야된다. 
+
     [보안 부팅 비활성화하기][disable secure boot]
 
 4. UEFI에 진입하여 USB 부팅 설정 
 
 5. 우분투 설치하기
     아마도 여기 혹은 이 다음과정부터 서피스랩탑의 키보드와 터치패드가 동작하지 않게 되니 준비한 마우스와 키보드를 사용하면 된다.
+
     - 서피스 랩탑 4 라이젠 모델에서는 후술할 IOMMU error로 인해 화면이 먿어버리는 현상이 있는데, 이게 설치용 USB로 부팅시에도 발생한다. 이 단계에서는 부팅메뉴에서 디스플레이 옵션을 최소화한 안전부팅을 사용하여 설치를 진행한다.
 
 
@@ -51,11 +56,14 @@ categories: surface-laptop-4 linux-surface ubuntu
 
 1. Grub진입
     부팅할떄 시프트 키를 누르고 있으면 서피스 로고 후에 Grub으로 진입한다.
+
     만약 부팅 메뉴에 진입할 수 없다면, [grub 복구][restore-grub]를 참조하여 복구 후에 진행하자.
 
 2. 부팅 옵션 적용
     부팅메뉴에서 e를 눌러 당장 부팅하기 위한 부팅옵션을 추가한다.
+
     'quiet splash' 뒤에 ` amd_iommu=off iommu=off'를 붙여주고, ctrl+x로 부팅하면 화면이 먿지 않고 부팅 가능할 것이다.
+
     * nomodeset이나  amd_iommu=force_isolation도 시도해봤지만 몇가지 문제가 발생한다.(밝기조절 불가, 해상도조절 불가) 얌전히 위의 옵션만 적용하자
 
 3. Grub 파일 수정
@@ -72,6 +80,7 @@ categories: surface-laptop-4 linux-surface ubuntu
     ```
 
     'amd_iommu=off iommu=off'는 iommu 에러를 회피하기 위한 것이고
+
     'acpi_backlight=vendor'는 백라이트 설정이 동작하게 하기 위한 것이다. [서피스랩탑4 페이지][linux-surface Surface Laptop4 Page]
 
     ```
@@ -111,13 +120,16 @@ $ sudo update-grub
 ```
 
 이것으로 귀하시고 고마우신 분들이 만든 linux-surface커널 설치가 완료되어 서피스랩탑4로 우분투를 사용할 준비가 완료되었다.
+
 ubuntu를 사용한적이 없어서 여러모로 헤매면서 여기 저기를 뒤졌지만, 결국 [linux-surface 설치 페이지][linux-surface Installation and Setup page]와 [서피스 랩탑4 페이지][linux-surface Surface Laptop4 Page]에 모두 있는 내용이었고 이쪽에서 제시한 방법이 가장 깔끔했다. 저 두 페이지에서 순서 정도만 설치과정에 맞게 끼워맞추고, 우분투 유저라면 다들 알아서인지 자세히 적혀있지 안은 grub 설정 방법 같은것만 추가했다.
 
 
 # 좀비 마우스커서 문제 해결
 
 마지막으로 100% 발생하는 듯한 문제에 대해서 추가.
+
 처음에는 깔끔하다가도 사용하다보면 로그인스크린에서의 마우스포인터가 화면에 그대로 남게 된다.
+
 [여기][Ubuntu 20.04 and 21.04: second cursor stuck on the screen 150% fractional scaling on a 1440p monitor after login (XOrg)]에서 해결을 찾았다.
 
 `sudo nano /etc/gdm3/custom.conf`
