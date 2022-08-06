@@ -1,7 +1,7 @@
 ---
 title: "기술 스택 리스트"
 date: 2022-08-01 20:00:00 -0500
-categories: surface-laptop-4 linux-surface ubuntu
+categories: TechStack
 ---
 
 이 블로그를 이력서 포트폴리오 첨부용으로도 사용하기 위해 채워야 할 기술 스택 리스트
@@ -12,6 +12,11 @@ categories: surface-laptop-4 linux-surface ubuntu
 2. Boxing & Unboxing
 3. Out & Ref
 4. Linq
+5. C# Extention Method 
+
+# Python
+
+# Algorythm
 
 # Design Pattern
 
@@ -22,7 +27,7 @@ categories: surface-laptop-4 linux-surface ubuntu
 5. FlyWeight
 6. Object-Pool
     
-# Unity Package
+# Unity SDK Package
 
 1. Firebase
 2. Addressable
@@ -38,8 +43,14 @@ categories: surface-laptop-4 linux-surface ubuntu
 # Unity
 
 1. FrameWork Architect
-2. 
+2. Spine Animation
+3. Export Unity Package to Android Studio
+
+# Web & Server
+
+1. Git.IO
+2. Docker
+3. Uwsgi
+4. REDIS
 
 # Jenkins
-
-# Algorythm
