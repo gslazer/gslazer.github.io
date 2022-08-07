@@ -8,11 +8,12 @@ categories: TechStack
 
 # C#
 
-1. Lambda & Delegate
-2. Boxing & Unboxing
-3. Out & Ref
-4. Linq
-5. C# Extention Method 
+1. [Lambda](https://gslazer.github.io/techstack/TechStackList/)
+2. Delegate
+3. Boxing & Unboxing
+4. Out & Ref
+5. LinQ
+6. C# Extention Method 
 
 # Python
 
