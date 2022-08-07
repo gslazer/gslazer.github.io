@@ -8,7 +8,7 @@ categories: TechStack
 
 # C#
 
-1. [Lambda](https://gslazer.github.io/techstack/TechStackList/)
+1. [Lambda](https://gslazer.github.io/techstack/csharp/lambda/)
 2. Delegate
 3. Boxing & Unboxing
 4. Out & Ref
