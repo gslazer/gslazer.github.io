@@ -9,11 +9,12 @@ categories: TechStack
 # C#
 
 1. [Lambda](https://gslazer.github.io/techstack/csharp/lambda/)
-2. Delegate
+2. [Delegate](https://gslazer.github.io/techstack/csharp/Deleegate/)
 3. Boxing & Unboxing
-4. Out & Ref
-5. LinQ
-6. C# Extention Method 
+4. Generic Method
+5. Out & Ref
+6. LinQ
+7. C# Extention Method 
 
 # Python
 
@@ -33,13 +34,13 @@ categories: TechStack
 1. Firebase
 2. Addressable
 3. GPGS, Google Market
-4. Auto Build
 
 # Unity Editor Scripting
 
 1. Cheet Tool
 2. Custom Object
 3. Custom Package
+4. Auto Build
 
 # Unity
 
