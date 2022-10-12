@@ -8,7 +8,24 @@ categories: TechStack
 
 ## MarkDown
 
-마크다운 사용법
+마크다gsl@gsl-laptop4:~$ ls
+Desktop    Downloads  Pictures  ScreenScalingFixer.jar  Unity   git
+Documents  Music      Public    Templates               Videos  snap
+gsl@gsl-laptop4:~$ ls
+Desktop    Downloads  Pictures  ScreenScalingFixer.jar  Unity   git
+Documents  Music      Public    Templates               Videos  snap
+gsl@gsl-laptop4:~$ cd git/
+gsl@gsl-laptop4:~/git$ ls
+CSharpExample  SlashProject  gslazer.github.io  tokken
+gsl@gsl-laptop4:~/git$ cd gslazer.github.io/
+gsl@gsl-laptop4:~/git/gslazer.github.io$ ls
+_config.yml  _posts  index.html  policy.html
+gsl@gsl-laptop4:~/git/gslazer.github.io$ git commit .
+[main 2314b8a] add posts
+ 1 file changed, 6 insertions(+), 5 deletions(-)
+gsl@gsl-laptop4:~/git/gslazer.github.io$ ls
+_config.yml  _posts  index.html  policy.html
+gsl@gsl-laptop4:~/git/gslazer.github.io$ git push or운 사용법
     <https://gist.github.com/ihoneymon/652be052a0727ad59601>
 
 ## C#람다식
