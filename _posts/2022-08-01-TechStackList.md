@@ -29,11 +29,13 @@ categories: TechStack
 5. FlyWeight
 6. Object-Pool
     
-# Unity SDK Package
+# Unity Extentions
 
 1. Firebase
 2. Addressable
 3. GPGS, Google Market
+4. In App Purchase Plugin(IAP)
+5. Addressable - resource management
 
 # Unity Editor Scripting
 
@@ -44,9 +46,10 @@ categories: TechStack
 
 # Unity
 
-1. FrameWork Architect
-2. Spine Animation
-3. Export Unity Package to Android Studio
+1. Unity Object Life Cycle
+2. FrameWork Architect
+3. Spine Animation
+4. Export Unity Package to Android Studio
 
 # Web & Server
 
