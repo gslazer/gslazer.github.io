@@ -15,6 +15,8 @@ categories: TechStack
 5. Out & Ref
 6. LinQ
 7. C# Extention Method 
+8. Virtual Method Table
+9. Garbage Collector
 
 # Python
 
@@ -51,11 +53,15 @@ categories: TechStack
 3. Spine Animation
 4. Export Unity Package to Android Studio
 
+# CI/CD
+
+1. Unity Scriptable Build Pipeline
+2. Jenkins CI/CD Pipeline
+
 # Web & Server
 
-1. Git.IO
+1. github.io
 2. Docker
-3. Uwsgi
-4. REDIS
-
-# Jenkins
+3. dJango
+4. Uwsgi
+5. REDIS
