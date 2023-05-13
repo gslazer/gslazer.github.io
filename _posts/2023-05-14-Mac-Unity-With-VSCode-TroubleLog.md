@@ -1,7 +1,7 @@
 ---
-title: "Welcome to Jekyll!"
-date: 2017-10-20 08:26:28 -0400
-categories: jekyll update
+title: "Mac Visual Studio Code를 사용한 Unity개발환경 세팅 로그 및 트러블 슈팅"
+date: 2023-05-14 03:31:28 -0900
+categories: Mac Unity VisualStudioCode C#
 ---
 
 # Mac Visual Studio Code를 사용한 Unity개발환경 세팅 로그 및 트러블 슈팅
