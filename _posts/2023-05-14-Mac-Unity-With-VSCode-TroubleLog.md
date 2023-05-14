@@ -59,7 +59,7 @@ vs code 공식 사이트에서의 unity 연동 관련 문서.
 4. 재시동 할것.
 5. Unity를 열고, Package Manager에서 VS Code Package를 설치, External Tools에서 VisualStudioCode를 설정 후, Regenerate Project Files
     
-    ![Untitled](230514/Untitled.png)
+    ![Untitled](https://gslazer.github.io/230514/Untitled.png)
     
 6. Open C# Assets - (유니티에서 VS Code 실행) 
 7. VS Code 에서 아래 플러그인들 설치
@@ -69,7 +69,7 @@ Download C#, Unity Tools, Unity Debugger, Unity Code Snippets, Unity Snippets,  
     
 8. **(중요) Settings - Omnisharp : Use Modern Net 체크 해제.**
     
-    ![Untitled](230514/Untitled%201.png)
+    ![Untitled](https://gslazer.github.io/230514/Untitled%201.png)
     
     이 시점에서 이런 에러를 맞이하게된다.
     
@@ -79,7 +79,7 @@ Download C#, Unity Tools, Unity Debugger, Unity Code Snippets, Unity Snippets,  
 11. Edit — Open C# Assets
     
     
-    ![문제 1- OmniSharp requirese a complete install of Mono ](230514/Untitled%202.png)
+    ![문제 1- OmniSharp requirese a complete install of Mono ](https://gslazer.github.io/230514/Untitled%202.png)
     
     문제 1- OmniSharp requirese a complete install of Mono 
     
@@ -91,7 +91,7 @@ Download C#, Unity Tools, Unity Debugger, Unity Code Snippets, Unity Snippets,  
     - 영상에서 정상동작에 사용된 확장 버전이 1.25.0에서 확인 후 1.25.2 및 1.25.4까지 확인해보도록 한다.(1.25.5, 1.25.6 버전은 존재하지 않는다.)
     - 1.25.0버전, 1.25.4 확인, .NET Core SDK에 대한 문제가 추가로 발생했다.
         
-        ![문제 2 - The .NET Core SDK cannot be located.](230514/Untitled%203.png)
+        ![문제 2 - The .NET Core SDK cannot be located.](https://gslazer.github.io/230514/Untitled%203.png)
         
         문제 2 - The .NET Core SDK cannot be located.
         
@@ -106,11 +106,11 @@ Download C#, Unity Tools, Unity Debugger, Unity Code Snippets, Unity Snippets,  
     - Visual Studio Code용 Dot net SDK를 설치한 후 문제 2 - The .NET Core SDK cannot be located. 는 해결되었지만 문제 1- OmniSharp requirese a complete install of Mono 는 여전했다.
     - Mono를 Visual Studio Channel 로 다시 다운로드하여 설치한 결과, 문제 1- OmniSharp requirese a complete install of Mono 이 사라졌다.
         
-        ![문제 1과 문제 2가 모두 해결된 상태](230514/Untitled%204.png)
+        ![문제 1과 문제 2가 모두 해결된 상태](https://gslazer.github.io/230514/Untitled%204.png)
         
         문제 1과 문제 2가 모두 해결된 상태
         
-        ![OmniSharp가 정상동작하는 상태](230514/Untitled%205.png)
+        ![OmniSharp가 정상동작하는 상태](https://gslazer.github.io/230514/Untitled%205.png)
         
         OmniSharp가 정상동작하는 상태
         
@@ -124,11 +124,11 @@ Download C#, Unity Tools, Unity Debugger, Unity Code Snippets, Unity Snippets,  
     
     이제 Unity에서 실행버튼을 눌러 디버그를 확인하면 끝.
     
-    ![VS Code에서의 연결을 알리는 팝업](230514/Untitled%206.png)
+    ![VS Code에서의 연결을 알리는 팝업](https://gslazer.github.io/230514/Untitled%206.png)
     
     VS Code에서의 연결을 알리는 팝업
     
-    ![BreakPoint로 디버그 상태를 테스트하여 마무리](230514/Untitled%207.png)
+    ![BreakPoint로 디버그 상태를 테스트하여 마무리](https://gslazer.github.io/230514/Untitled%207.png)
     
     BreakPoint로 디버그 상태를 테스트하여 마무리
     
