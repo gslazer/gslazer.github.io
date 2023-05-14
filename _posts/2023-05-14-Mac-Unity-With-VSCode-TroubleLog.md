@@ -1,7 +1,7 @@
 ---
 title: "Mac Visual Studio Code를 사용한 Unity개발환경 세팅 로그 및 트러블 슈팅"
 date: 2023-05-14 03:31:28 -0600
-categories: Mac Unity VSCode CSharp
+categories: Tech
 ---
 
 # Mac Visual Studio Code를 사용한 Unity개발환경 세팅 로그 및 트러블 슈팅
